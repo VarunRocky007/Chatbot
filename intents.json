@@ -1,0 +1,53 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 18 years old!", "18 years young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me StuChatBot.", "I'm StuChatBot!", "I'm StuChatBot aka Student Chat Bot."],
+         "context_set": ""
+        },
+        {"tag": "internships",
+         "patterns": ["Id like to see internship details", "internships", "what do you recommend on internship?", "where i can find internships?"],
+         "responses": ["You can see internships in various websites.. like internshala or google jobs search", "Here is the website for internship www.internshala.com"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 7am-4pm Monday-Friday!"],
+         "context_set": ""
+        },
+        {"tag": "campus",
+         "patterns": ["What questions are expected in campus", "tell me about campus", "detailed view of campus","campus"],
+         "responses": ["basics of java or any oops language is expected \n overview of data structure \n and some concepts of data base","there are generally 4 rounds in campus aptitude,hands on,technical hr and general hr"],
+         "context_set": ""
+        },
+        {"tag": "alumni",
+         "patterns": ["Can i get any contacts of alumni", "Seniors", "overview of final year from an alumni","alumni"],
+         "responses": ["You can contact get the contacts of alumni from this xyz website","you can check the users of student app to contact your alumni"],
+         "context_set": ""
+        },
+        {"tag": "notes",
+         "patterns": ["Where i can get my notes", "engineering notes", "notes to learn for engineering","notes"],
+         "responses": ["You can refer this website for notes https://www.rejinpaul.com/"],
+         "context_set": ""
+        },
+        {"tag": "lab",
+         "patterns": ["Where i can get my lab manuals", "engineering labs", "lab manual for engineering","lab manual"],
+         "responses": ["You can refer this website for lab manuals https://easyengineering.net/lab-manuals-even/"],
+         "context_set": ""
+        }
+   ]
+}
